@@ -1,0 +1,85 @@
+.browser-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8eaed;
+  font-family: sans-serif;
+}
+
+.browser-window {
+  width: 500px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.browser-header {
+  background-color: #dee1e6;
+  padding: 0.7rem 1rem;
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.dot.red { background-color: #ff5f57; }
+.dot.yellow { background-color: #febc2e; }
+.dot.green { background-color: #28c840; }
+
+.browser-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  background-color: #f1f3f4;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.nav-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-icon:disabled {
+  color: #bbb;
+  cursor: default;
+}
+
+.nav-icon:not(:disabled):hover {
+  background-color: #e0e0e0;
+}
+
+.address-bar {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 999px;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  color: #333;
+  border: 1px solid #dcdcdc;
+}
+
+.browser-content {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.browser-content h1 {
+  color: #202124;
+  font-size: 2rem;
+  margin: 0;
+}
