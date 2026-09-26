@@ -1,16 +1,41 @@
-# React + Vite
+# Reto 03 - Estructuras de Datos: Listas
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Proyecto para el curso de Estructuras de Datos y Algoritmos 2. Implementa una lista enlazada simple, una lista doblemente enlazada, y un proyecto de React que las usa con navegación por botones.
 
-Currently, two official plugins are available:
+## Ramas del repositorio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Cada ejercicio del reto vive en su propia rama:
 
-## React Compiler
+- **`master`**: rama principal, contiene este README.
+- **`feature/linked-list-songs`**: implementación de una lista enlazada simple (`songs.js`) usada para reproducir canciones en orden. Incluye datos simulados (mock data).
+- **`feature/doubly-linked-list-history`**: implementación de una lista doblemente enlazada (`browserHistory.js`) que simula el historial de navegación de un navegador, permitiendo avanzar y retroceder. Incluye datos simulados.
+- **`feature/react-app`**: proyecto de React (creado con Vite) con 2 páginas:
+  - `/` — página de canciones, usando la lista enlazada simple.
+  - `/history` — página de historial, usando la lista doblemente enlazada.
+  
+  Ambas páginas permiten navegar mediante botones dentro de la interfaz.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Cómo correr cada parte
 
-## Expanding the Oxlint configuration
+### Ejercicios 1 y 2 (JavaScript puro)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Cambia a la rama correspondiente:
+   o 
+2. Corre el archivo con Node.js:
+   o
+
+### Ejercicios 3 y 4 (Proyecto de React)
+
+1. Cambia a la rama del proyecto de React:
+2. Instala las dependencias:
+3. Inicia el servidor de desarrollo:
+4. Abre en el navegador la dirección que indique la terminal (normalmente `http://localhost:5173/`).
+
+## Tecnologías usadas
+
+- JavaScript (ES6+)
+- Node.js
+- React
+- Vite
+- React Router (react-router-dom)
+- Git / GitHub
